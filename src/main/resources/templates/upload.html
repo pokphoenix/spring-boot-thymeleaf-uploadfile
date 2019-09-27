@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Spring Boot Upload multiple File upload example - AJAX </h1>
+    <form  method="POST" enctype="multipart/form-data" id="fileUploadForm">
+        <input type="text" name="extraField"><br><br>
+        <input type="file" name="files"><br><br>
+        <input type="file" name="files"><br><br>
+        <input type="submit" value="Submit" id="btnSubmit">
+    </form>
+
+    <h1>Ajax Post Result</h1>
+    <pre><span id="result"></span></pre>
+    <script src="webjars/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

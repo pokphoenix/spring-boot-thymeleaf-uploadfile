@@ -39,7 +39,7 @@ function fireAjaxSubmit() {
             var html = "";
             if(data.uploadSuccessName!=null&&data.uploadSuccessName.length>0 ){
                 for(let file of data.uploadSuccessName){
-                    html+="<p> <img src=\"/files/"+file+"\" width=100/></p>";
+                    html+="<p> <img src=\"/file/"+file+"\" width=100/></p>";
                 }
             }
             $("#result").html(html);

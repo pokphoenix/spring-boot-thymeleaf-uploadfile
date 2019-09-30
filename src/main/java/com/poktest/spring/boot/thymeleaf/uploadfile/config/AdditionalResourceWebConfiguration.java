@@ -12,3 +12,4 @@ public class AdditionalResourceWebConfiguration implements WebMvcConfigurer {
                 .addResourceLocations("classpath:/static/");
     }
 }
+//*** this file for access file in static folder  (it mean all file in static folder will public)
